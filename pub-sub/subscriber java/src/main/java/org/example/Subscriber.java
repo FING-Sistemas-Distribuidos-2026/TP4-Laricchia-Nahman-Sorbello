@@ -2,23 +2,7 @@ package org.example;
 
 /**
  * Subscriber.java — ZeroMQ Pub/Sub  |  CLIENTE (Java / JeroMQ)
- * TP4 - Sistemas Distribuidos
- *
- * Dependencias (Maven):
- *   <dependency>
- *     <groupId>org.zeromq</groupId>
- *     <artifactId>jeromq</artifactId>
- *     <version>0.6.0</version>
- *   </dependency>
- *
- * O con Gradle:
- *   implementation 'org.zeromq:jeromq:0.6.0'
- *
- * Compilar y ejecutar (con jeromq en el classpath):
- *   javac -cp jeromq-0.6.0.jar Subscriber.java
- *   java  -cp .:jeromq-0.6.0.jar Subscriber <IP_SERVIDOR>
- *
- * Si no se pasa IP, se conecta a localhost por defecto.
+ * TP4 - Sistemas Distribuidos Laricchia - Nahman - Sorbello
  */
 
 import org.zeromq.SocketType;
